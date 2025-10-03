@@ -11,4 +11,21 @@ html {
     radial-gradient(100% 100% at 0 100%,#0000, #0008 4%,var(--_g),var(--c1) 96%)
     var(--c1);
   background-size: var(--s) var(--s);
+  font: optional;
+  font-family: 'Courier New', Courier, monospace;
+  color:aquamarine;
+}
+.container {
+  display: grid;
+  column-gap: 50px;
+  grid-template-columns: auto auto auto;
+  padding: 5px;
+}
+.container > div {
+  background-color: transparent;
+  border: 1px solid whitesmoke;
+  padding: 20px;
+  font-size: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #000000a0;
 }
